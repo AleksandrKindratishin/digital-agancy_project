@@ -1,0 +1,50 @@
+@mixin bannerTitleStyles {
+   font-size: $main-title-size;
+   color: $main-text-color;
+   font-weight: $title-weight;
+   text-align: left;
+}
+
+@mixin bannerDescStyles {
+   font-size: $banner-desc-size;
+   color: $main-text-color;
+   font-weight: $desc-weight;
+   text-align: left;
+   line-height: $main-line-height;
+}
+
+@mixin blocksTitleStyles {
+   font-size: $title-size;
+   color: $main-text-color;
+   font-weight: $title-weight;
+   text-align: left;
+}
+
+@mixin descStyles {
+   font-size: $blocks-desc-size;
+   color: $main-text-color;
+   font-weight: $desc-weight;
+   text-align: left;
+   line-height: $main-line-height;
+}
+
+@mixin btnStyles {
+   font-size: $blocks-desc-size;
+   color: $btn-tex-color;
+   background-color: $btn-color;
+   text-transform: uppercase;
+   padding: 10px 31px;
+}
+
+@mixin humanNameStyles {
+   font-size: $menu-size;
+   color: $main-text-color;
+   text-align: center;
+}
+
+@mixin humanDescStyles {
+   font-size: $human-desc-size;
+   color: $main-text-color;
+   text-align: center;
+   line-height: $main-line-height;
+}
