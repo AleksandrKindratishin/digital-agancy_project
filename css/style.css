@@ -86,3 +86,63 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  font-family: Inter;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.__conteiner {
+  max-width: 1070px;
+  margin: 0px auto;
+}
+
+.header {
+  height: 120px;
+}
+
+.header__conteiner {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__conteiner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 404px;
+}
+.header__conteiner span {
+  text-transform: uppercase;
+  color: #272D38;
+  font-weight: 700;
+  font-size: 20px;
+}
+.header__conteiner a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #272D38;
+  cursor: pointer;
+}
