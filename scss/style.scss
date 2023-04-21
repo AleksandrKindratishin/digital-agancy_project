@@ -55,3 +55,102 @@ body {
          cursor: pointer;
       }
 }
+
+
+// banner
+
+
+.bannner__container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 51px;
+   
+      .banner__info {
+         margin-top: 95px;
+         width: 540px;
+      }
+
+      h1 {
+         @include bannerTitleStyles;
+      }
+
+      p {
+         @include bannerDescStyles;
+      }
+
+      a {
+         @include btnStyles;
+      }
+}
+
+
+// companies
+
+
+.companies__conteiner {
+   margin: 0 auto;
+   width: 915px;
+   margin-top: 206px;
+
+      .companies__img-wrrapper {
+         display: flex;
+         justify-content: space-around;
+         height: 86px;
+         align-items: center;
+         background-color: #F6F6F6;
+         border-radius: 8px;
+         margin-top: 16px;
+      }
+
+      p {
+         font-size: $blocks-desc-size;
+         color: $desc-text-color;
+         text-align: center;
+      }
+}
+
+
+// branding
+
+
+.branding__container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 136px;
+
+    .branding__info {
+      width: 435px;
+      margin-top: 97px;
+    }
+
+    h2 {
+      @include blocksTitleStyles;
+    }
+
+    p {
+      @include descStyles;
+    }
+}
+
+
+// custome
+
+
+.custome__conteiner {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 136px;
+
+      .custome__info {
+      width: 435px;
+      margin-top: 97px;
+      }
+
+      h2 {
+         @include blocksTitleStyles;
+      }
+      
+      p {
+         @include descStyles;
+      }
+}

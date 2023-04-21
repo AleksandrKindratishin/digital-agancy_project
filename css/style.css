@@ -146,3 +146,126 @@ body {
   color: #272D38;
   cursor: pointer;
 }
+
+.bannner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 51px;
+}
+.bannner__container .banner__info {
+  margin-top: 95px;
+  width: 540px;
+}
+.bannner__container h1 {
+  font-size: 64px;
+  color: #272D38;
+  font-weight: 700;
+  text-align: left;
+}
+.bannner__container p {
+  font-size: 20px;
+  color: #272D38;
+  font-weight: 400;
+  text-align: left;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.bannner__container a {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #8EADD5;
+  text-transform: uppercase;
+  padding: 15px 31px;
+  margin-top: 40px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.companies__conteiner {
+  margin: 0 auto;
+  width: 915px;
+  margin-top: 206px;
+}
+.companies__conteiner .companies__img-wrrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 86px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F6F6F6;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.companies__conteiner p {
+  font-size: 16px;
+  color: #667085;
+  text-align: center;
+}
+
+.branding__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 136px;
+}
+.branding__container .branding__info {
+  width: 435px;
+  margin-top: 97px;
+}
+.branding__container h2 {
+  font-size: 48px;
+  color: #272D38;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.branding__container p {
+  font-size: 16px;
+  color: #272D38;
+  font-weight: 400;
+  text-align: left;
+  line-height: 28px;
+  margin-bottom: 45px;
+  width: 392px;
+}
+
+.custome__conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 136px;
+}
+.custome__conteiner .custome__info {
+  width: 435px;
+  margin-top: 97px;
+}
+.custome__conteiner h2 {
+  font-size: 48px;
+  color: #272D38;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.custome__conteiner p {
+  font-size: 16px;
+  color: #272D38;
+  font-weight: 400;
+  text-align: left;
+  line-height: 28px;
+  margin-bottom: 45px;
+  width: 392px;
+}

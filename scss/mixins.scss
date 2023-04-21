@@ -11,6 +11,7 @@
    font-weight: $desc-weight;
    text-align: left;
    line-height: $main-line-height;
+   margin-top: 24px;
 }
 
 @mixin blocksTitleStyles {
@@ -18,6 +19,7 @@
    color: $main-text-color;
    font-weight: $title-weight;
    text-align: left;
+   margin-bottom: 25px;
 }
 
 @mixin descStyles {
@@ -26,6 +28,8 @@
    font-weight: $desc-weight;
    text-align: left;
    line-height: $main-line-height;
+   margin-bottom: 45px;
+   width: 392px;
 }
 
 @mixin btnStyles {
@@ -33,7 +37,10 @@
    color: $btn-tex-color;
    background-color: $btn-color;
    text-transform: uppercase;
-   padding: 10px 31px;
+   padding: 15px 31px;
+   margin-top: 40px;
+   border-radius: 8px;
+   display: inline-block;
 }
 
 @mixin humanNameStyles {
