@@ -154,3 +154,53 @@ body {
          @include descStyles;
       }
 }
+
+
+// testimonials
+
+
+.testimonials__conteiner {
+   margin-top: 136px;
+
+      .testimonials__desc {
+         font-size: $blocks-desc-size;
+         color: $desc-text-color;
+         text-align: center;
+      }
+
+      h2 {
+         @include blocksTitleStyles;
+         max-width: 435px;
+         margin: 0 auto;
+         text-align: center;
+         margin-top: 16px;
+         margin-bottom: 38px;
+      }
+
+      .testimonials__cards {
+         display: flex;
+         justify-content: space-around;
+      }
+
+      .card {
+         text-align: center;
+         background-color: #F6F6F6;
+         width: 345px;
+         height: 334px;
+
+            img {
+               margin-top: 32px;
+               margin-bottom: 8px;
+            }
+
+            .card__name {
+               @include humanNameStyles;
+            }
+
+            .card__desc {
+               @include humanDescStyles;
+            }
+      }
+
+      
+}

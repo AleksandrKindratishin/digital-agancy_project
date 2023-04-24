@@ -269,3 +269,55 @@ body {
   margin-bottom: 45px;
   width: 392px;
 }
+
+.testimonials__conteiner {
+  margin-top: 136px;
+}
+.testimonials__conteiner .testimonials__desc {
+  font-size: 16px;
+  color: #667085;
+  text-align: center;
+}
+.testimonials__conteiner h2 {
+  font-size: 48px;
+  color: #272D38;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+  max-width: 435px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 38px;
+}
+.testimonials__conteiner .testimonials__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.testimonials__conteiner .card {
+  text-align: center;
+  background-color: #F6F6F6;
+  width: 345px;
+  height: 334px;
+}
+.testimonials__conteiner .card img {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.testimonials__conteiner .card .card__name {
+  font-size: 18px;
+  color: #272D38;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.testimonials__conteiner .card .card__desc {
+  font-size: 14px;
+  color: #272D38;
+  text-align: center;
+  line-height: 28px;
+  width: 280px;
+  margin: 0 auto;
+}
